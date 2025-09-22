@@ -1,0 +1,17 @@
+print("ENTER THE FOLLOWING DETAILS ")
+name = input("name : ")
+house_no = input("house.no : ")
+street_name = input("street name : ")
+area = input("area name : ")
+pincode = int(input("pincode of your area : "))
+district = input("district name : ")
+state = input("state name : ")
+country = input("country name : ")
+intl_call_code = input("International calling code : ")
+mobile_1 = int(input("mobile.no 1 : "))
+mobile_2 = int(input("mobile.no 2 : "))
+print("ADDRESS : ",name,",",house_no,",",street_name,",",area,",",pincode,",",district,"dist",",",state,",",country,".")
+print("for contact")
+print(intl_call_code ,mobile_1,",",intl_call_code ,mobile_2)
+
+
