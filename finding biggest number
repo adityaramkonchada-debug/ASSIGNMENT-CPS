@@ -1,0 +1,11 @@
+a = float(input("ENTER FIRST NUMBER : "))
+b = float(input("ENTER SECOND NUMBER : "))
+c = float(input("ENTER THIRD NUMBER : "))
+if(a>=b and a>=c):
+    print("Biggest number among these is ",a)
+elif(b>=a and b>=c):
+    print("Biggest number among these is ",b)
+else:
+    print("Biggest number among these is ",c)
+
+    
