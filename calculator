@@ -1,0 +1,16 @@
+print("ENTER VALID REAL NUMBERS")
+a = float(input("a : "))
+b = float(input("b : "))
+add = a+b
+sub = a-b
+mul = a*b
+div = a/b
+qnt = a//b
+rem = a%b
+print("The addition of the two numbers : ",add)
+print("The subtraction of the two numbers : ",sub)
+print("The multiplication of the two numbers : ",mul)
+print("The division of the numbers : ",div)
+print("The integer quotient of the two numbers when dividing : ",qnt)
+print("The remainder of the two numbers when dividing : " ,rem)
+
