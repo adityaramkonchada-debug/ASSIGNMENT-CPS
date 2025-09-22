@@ -1,0 +1,12 @@
+X = float(input("ENTER A POSITIVE REAL NUMBER : "))      #DISTANCE CANNOT BE NEGATIVE
+print("Type 'a(in miles)' if you want convert miles to kms")
+print("Type 'b(in kms)' if you want convert kms to miles")
+choose = input("choose(a/b) : ")
+a = X*1.609344
+b = X*0.621371
+if (choose == "a"):
+    print(a,"KM(s)")
+elif (choose == "b"):
+    print(b,"mile(s)")
+else:
+    print(" PLEASE ENTER A VALID REAL NUMBER ")
