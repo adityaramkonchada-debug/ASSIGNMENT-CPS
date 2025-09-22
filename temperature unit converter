@@ -1,0 +1,12 @@
+X = float(input("ENTER A REAL NUMBER : "))
+print("Type 'a(in Fahrenheit)' if you want to convert Fahrenheit to Celsius")
+print("Type 'b(in Celsius)' if you want to convert Celsius to Fahrenheit")
+choose = input("choose(a/b) : ")
+a = (X - 32)*5/9
+b = (X*9/5) + 32
+if(choose == "a"):
+    print("ans(in Celsius) : ",a)
+elif(choose == "b"):
+    print("ans(in Fahrenheit) : ",b)
+else:
+    print("PLEASE ENTER A VALID REAL NUMBER")
